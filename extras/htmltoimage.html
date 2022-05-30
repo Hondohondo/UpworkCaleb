@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML to Image</title>
+    <style>
+        #div {
+            max-width: 720px;
+            margin: 0 auto;
+            background-color: tomato;
+        }
+    </style>
+
+</head>
+<body>
+
+<div id="div">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur labore libero mollitia nesciunt repellendus sint, ut. Aut, corporis dolores et expedita fuga hic ipsam iure necessitatibus nisi tenetur vero, vitae?
+    </p>
+
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus consequatur cupiditate perspiciatis rerum vero? Ab, ad eius facere iure labore magnam nulla odio possimus quaerat quisquam, ratione ut voluptas voluptate!
+    </p>
+</div>
+
+<button id="btn">Download</button>
+
+<!--
+<script src="https://html2canvas.hertzen.com/dist/html2canvas.min.js"></script>
+<script>
+    document.getElementById("btn").onclick = function () {
+        const screenshotTarget = document.getElementById("div");
+
+        html2canvas(screenshotTarget).then((canvas) => {
+             const base64image = canvas.toDataURL("image/PNG");
+             var anchor = document.createElement('a');
+             anchor.setAttribute("href", base64image);
+             anchor.setAttribute("download", "my-image.png");
+             anchor.click();
+             anchor.remove();
+        });
+
+    };
+</script>-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    var element = document.getElementById('div');
+    html2pdf(element);
+</script>
+
+
+</body>
+</html>

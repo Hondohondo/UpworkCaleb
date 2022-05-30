@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style-2.css">
+
+</head>
+<body>
+<form action="" class="form">
+    <div class="form-group">
+        <img src="images/diamond-01.png" alt="" class="image-icon">
+        <div class="text-input-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" class="name-input">
+        </div>
+    </div>
+
+    <div class="form-group">
+        <img src="images/mask-01.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <p class="role-para">Role</p>
+            <div class="radio-buttons">
+                <div>
+                    <label for="player">Player</label>
+                    <input type="radio" id="player" name="role" value="player">
+                </div>
+                <div>
+                    <label for="player-preferred">Player <br> Preferred</label>
+                    <input type="radio" id="player-preferred" name="role" value="player-preferred">
+                </div>
+                <div>
+                    <label for="no-preference">No <br>Preference</label>
+                    <input type="radio" id="no-preference" name="role" value="no-preference">
+                </div>
+                <div>
+                    <label for="game-master-prefered">Game Master <br> Prefered</label>
+                    <input type="radio" id="game-master-prefered" name="role" value="game-master-prefered">
+                </div>
+                <div>
+                    <label for="game-master">Game Master</label>
+                    <input type="radio" id="game-master" name="role" value="game-master">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group game">
+        <img src="images/diamond-03.png" alt="" class="image-icon">
+        <div class="text-input-group-2">
+            <label for="preferred-game-system">Preferred Game System</label>
+            <input type="text" id="preferred-game-system" class="game-input">
+        </div>
+    </div>
+
+    <div class="form-group game play-preferences">
+        <img src="images/diamond-04.png" alt="" class="image-icon">
+        <div class="text-input-group-2">
+            <p class="preferences">Play Preferences</p>
+        </div>
+        <!--        <img src="images/dragon2.png" alt="" class="dragon-image-2">-->
+    </div>
+
+    <div class="form-group roleplay">
+        <img src="images/triangle.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent1">Ambivalent</label>
+                    <input type="radio" id="ambivalent1" name="roleplay-serious" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-1">
+                        <span class="span-one">Role Play</span>
+                        <span class="span-two">Combat</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-1" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both1">Love Both</label>
+                    <input type="radio" id="love-both1" name="roleplay-serious" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group serious">
+        <img src="images/triangle.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent2">Ambivalent</label>
+                    <input type="radio" id="ambivalent2" name="serious-shenanigans" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-2">
+                        <span class="span-one">Serious</span>
+                        <span class="span-two">Shenanigans</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-2" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both2">Love Both</label>
+                    <input type="radio" id="love-both2" name="serious-shenanigans" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group story-based story-based-container">
+        <img src="images/triangle.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent3">Ambivalent</label>
+                    <input type="radio" id="ambivalent3" name="storybased-episodic" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-3">
+                        <span class="span-one">Story-Based</span>
+                        <span class="span-two">Episodic</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-3" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both3">Love Both</label>
+                    <input type="radio" id="love-both3" name="storybased-episodic" value="love-both">
+                </div>
+            </div>
+        </div>
+        <!--        <img src="images/alchemy.png" alt="" class="alchemy">-->
+    </div>
+    <div class="form-group character">
+        <img src="images/triangle.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent4">Ambivalent</label>
+                    <input type="radio" id="ambivalent4" name="character-murder" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-4">
+                        <span class="span-one">Character <br> Development</span>
+                        <span class="span-two">Murder Hobo</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-4" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both4">Love Both</label>
+                    <input type="radio" id="love-both4" name="character-murder" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group in-person">
+        <img src="images/triangle.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent5">Ambivalent</label>
+                    <input type="radio" id="ambivalent5" name="inperson-online" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-5">
+                        <span class="span-one">In-Person</span>
+                        <span class="span-two">Online Play</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-5" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both5">Love Both</label>
+                    <input type="radio" id="love-both5" name="inperson-online" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group good">
+        <img src="images/triangle.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent6">Ambivalent</label>
+                    <input type="radio" id="ambivalent6" name="good-evil" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-6">
+                        <span class="span-one">Good</span>
+                        <span class="span-two">Evil</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-6" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both6">Love Both</label>
+                    <input type="radio" id="love-both6" name="good-evil" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group homebrew">
+        <img src="images/triangle.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent7">Ambivalent</label>
+                    <input type="radio" id="ambivalent7" name="homebrew-published" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-7">
+                        <span class="span-one">Homebrew</span>
+                        <span class="span-two">Published</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-7" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both7">Love Both</label>
+                    <input type="radio" id="love-both7" name="homebrew-published" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group rules">
+        <img src="images/triangle.png" alt="" class="image-icon">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent8">Ambivalent</label>
+                    <input type="radio" id="ambivalent8" name="rule" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-8">
+                        <span class="span-one">Rules as <br> Intended</span>
+                        <span class="span-two">Rules as <br> Written</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-8" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both8">Love Both</label>
+                    <input type="radio" id="love-both8" name="rule" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group npc fav-character">
+        <img src="images/diamond-5.png" alt="" class="image-icon">
+        <div class="textarea-group">
+            <label for="npc">Favorite character or NPC you’ve played:</label>
+            <textarea name="npc" id="npc" class="textarea"></textarea>
+        </div>
+        <!--        <img src="images/dragon1.png" alt="" class="dragon-image">-->
+    </div>
+    <div class="form-group npc">
+        <img src="images/square.png" alt="" class="image-icon">
+        <div class="textarea-group">
+            <label for="story">Story from a game you’ve played:</label>
+            <textarea name="story" id="story" class="textarea"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group npc">
+        <img src="images/triangle-2.png" alt="" class="image-icon">
+        <div class="textarea-group">
+            <label for="story">Interests & Keywords:</label>
+            <div class="bottom-container">
+                <div class="body">
+
+                </div>
+                <div class="add-more-block"><input type="text" id="input" class="add-more-input" placeholder="Add More  +">
+                    <!--                    <button class="display-none" id="btn">Submit</button>-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="form-group npc download-div">
+        <!--        <button id="btn" class="download-btn"><span>Download Form</span> <span class="arrow">&darr;</span></button>-->
+        <span id="btn" class="download-btn">Download Form</span>
+    </div>
+    <!--    <button id="btn" class="download-btn">Download Form</button>-->
+
+
+
+</form>
+
+<div class="container">
+    <div>
+        <div class="text-input-group">
+<!--            <label for="name">Name</label>-->
+<!--            <input type="text" id="name" class="name-input">-->
+            <p id="name-para">Caleb Hager</p>
+        </div>
+        <div class="text-input-group-flex">
+            <p id="role-para">GM Preferred</p>
+            <p id="game-para">Dungeon & Draggon</p>
+        </div>
+    </div>
+
+  <!--  <div class="form-group">
+        <div class="radio-input-group">
+            <p class="role-para">Role</p>
+            <div class="radio-buttons">
+                <div>
+                    <label for="player">Player</label>
+                    <input type="radio" id="player" name="role" value="player">
+                </div>
+                <div>
+                    <label for="player-preferred">Player <br> Preferred</label>
+                    <input type="radio" id="player-preferred" name="role" value="player-preferred">
+                </div>
+                <div>
+                    <label for="no-preference">No <br>Preference</label>
+                    <input type="radio" id="no-preference" name="role" value="no-preference">
+                </div>
+                <div>
+                    <label for="game-master-prefered">Game Master <br> Prefered</label>
+                    <input type="radio" id="game-master-prefered" name="role" value="game-master-prefered">
+                </div>
+                <div>
+                    <label for="game-master">Game Master</label>
+                    <input type="radio" id="game-master" name="role" value="game-master">
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+   <!-- <div class="form-group game">
+        <div class="text-input-group-2">
+            <label for="preferred-game-system">Preferred Game System</label>
+            <input type="text" id="preferred-game-system" class="game-input">
+        </div>
+    </div>-->
+
+    <div class="form-group game play-preferences">
+        <div class="text-input-group-2">
+            <p class="preferences">Play Preferences</p>
+        </div>
+    </div>
+
+    <div class="form-group roleplay">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent1">Ambivalent</label>
+                    <input type="radio" id="ambivalent1b" name="roleplay-serious-b" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-1">
+                        <span class="span-one">Role Play</span>
+                        <span class="span-two">Combat</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-1b" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both1">Love Both</label>
+                    <input type="radio" id="love-both1b" name="roleplay-serious-b" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group serious">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent2">Ambivalent</label>
+                    <input type="radio" id="ambivalent2b" name="serious-shenanigans-b" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-2">
+                        <span class="span-one">Serious</span>
+                        <span class="span-two">Shenanigans</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-2b" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both2">Love Both</label>
+                    <input type="radio" id="love-both2b" name="serious-shenanigans-b" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group story-based story-based-container">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent3">Ambivalent</label>
+                    <input type="radio" id="ambivalent3b" name="storybased-episodic-b" value="ambivalent">
+                </div>
+                <div class="meter">
+                    <label for="meter-3">
+                        <span class="span-one">Story-Based</span>
+                        <span class="span-two">Episodic</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-3b" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both3">Love Both</label>
+                    <input type="radio" id="love-both3b" name="storybased-episodic-b" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group character">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent4">Ambivalent</label>
+                    <input type="radio" id="ambivalent4b" name="character-murder-b" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-4b">
+                        <span class="span-one">Character <br> Development</span>
+                        <span class="span-two">Murder Hobo</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-4b" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both4">Love Both</label>
+                    <input type="radio" id="love-both4b" name="character-murder-b" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group in-person">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent5b">Ambivalent</label>
+                    <input type="radio" id="ambivalent5b" name="inperson-online-b" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-5b">
+                        <span class="span-one">In-Person</span>
+                        <span class="span-two">Online Play</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-5b" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both5b">Love Both</label>
+                    <input type="radio" id="love-both5b" name="inperson-online-b" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group good">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent6b">Ambivalent</label>
+                    <input type="radio" id="ambivalent6b" name="good-evil-b" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-6b">
+                        <span class="span-one">Good</span>
+                        <span class="span-two">Evil</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-6b" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both6">Love Both</label>
+                    <input type="radio" id="love-both6b" name="good-evil-b" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group homebrew">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent7b">Ambivalent</label>
+                    <input type="radio" id="ambivalent7b" name="homebrew-published-b" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-7b">
+                        <span class="span-one">Homebrew</span>
+                        <span class="span-two">Published</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-7b" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both7">Love Both</label>
+                    <input type="radio" id="love-both7b" name="homebrew-published-b" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="form-group rules">
+        <div class="radio-input-group">
+            <div class="radio-buttons">
+                <div>
+                    <label for="ambivalent8b">Ambivalent</label>
+                    <input type="radio" id="ambivalent8b" name="rule-b" value="ambivalent">
+                </div>
+
+                <div class="meter">
+                    <label for="meter-8b">
+                        <span class="span-one">Rules as <br> Intended</span>
+                        <span class="span-two">Rules as <br> Written</span>
+                    </label>
+                    <input type="range" min="1" max="7" id="meter-8b" class="slider">
+                </div>
+
+                <div>
+                    <label for="love-both8b">Love Both</label>
+                    <input type="radio" id="love-both8b" name="rule-b" value="love-both">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="form-group npc fav-character">
+        <div class="textarea-group">
+            <label for="npcb">Favorite character or NPC you’ve played:</label>
+            <textarea name="npc" id="npcb" class="textarea"></textarea>
+        </div>
+<!--        <img src="images/dragon1.png" alt="" class="dragon-image">-->
+    </div>
+    <div class="form-group npc">
+        <div class="textarea-group">
+            <label for="storyb">Story from a game you’ve played:</label>
+            <textarea name="story" id="storyb" class="textarea"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group npc">
+        <div class="textarea-group">
+            <label for="story">Interests & Keywords:</label>
+            <div class="bottom-container">
+                <div class="body">
+
+                </div>
+                <div class="add-more-block"><input type="text" id="input-b" class="add-more-input" placeholder="Add More  +">
+                    <!--                    <button class="display-none" id="btn">Submit</button>-->
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="form-group npc download-div">
+        <span id="btn-b" class="download-btn">Download Form</span>
+    </div>
+
+</div>
+
+<script src="newpage.js"></script>
+</body>
+</html>
